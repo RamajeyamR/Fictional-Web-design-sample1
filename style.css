@@ -14,14 +14,28 @@ body{
     overflow: hidden;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 .button1{
-    height: 38px;
+    height: 36px;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
     background: #ff471a;
     color: white;
     font-weight: bold;
+    
+}
+
+.dark{
+    padding: 15px;
+    background: #262626;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -55,11 +69,6 @@ header a:hover, header #current a:hover{
     color: white;
     font-weight: bold;
     font-size: 18px;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
 }
 
 header li {
@@ -120,6 +129,13 @@ header #brand h1{
     width: 250px;
 }
 
+#newsletter .button1:hover{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+
 /* Boxes */
 
 #boxes{
@@ -141,5 +157,64 @@ header #brand h1{
     width: 30%;
     padding: 10px; 
     text-align: center;
+}
+
+/* about us */
+/* sidebar */
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#main-col{
+    float: left;
+    width: 60%;
+    margin-bottom: 7px;
+}
+
+/* services */
+
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: grey solid 1px;
+    margin-bottom: 5px;
+    background: #a6a6a6;
+}
+
+aside#sidebar .qoute input, aside#sidebar .qoute textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+.dark {
+    margin-top: 100px;
+}
+
+aside .button1:hover{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+article#main-col1{
+    float: left;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+h1.page-title{
+    font-size: 30px;
+}
+
+/* footer */
+footer{
+    background-color: #ff5c33;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
